@@ -1,4 +1,3 @@
-// Fig. 8.33: AddressBookEntry.java
 // JavaBean to represent one address book entry.
 
 public class AddressBookEntry {

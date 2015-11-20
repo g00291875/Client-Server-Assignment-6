@@ -1,5 +1,4 @@
-// Fig. 8.38: AddressBook.java
-// An address book database example that allows information to 
+// An address book database example that allows information to
 // be inserted, updated and deleted. The example uses 
 // transactions to ensure that the operations complete 
 // successfully.
@@ -236,7 +235,7 @@ public class AddressBook extends JFrame {
          // detect database errors
          catch ( DataAccessException exception ) {
             JOptionPane.showMessageDialog( desktop, exception,
-               "DataAccessException", 
+               "DataAccessException",
                   JOptionPane.ERROR_MESSAGE );
             exception.printStackTrace();  
          }

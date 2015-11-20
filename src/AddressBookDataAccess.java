@@ -1,9 +1,7 @@
-// Fig. 8.34: AddressBookDataAccess.java
 // Interface that specifies the methods for inserting,
 // updating, deleting and finding records.
 
 // Java core packages
-import java.sql.*;
 
 public interface AddressBookDataAccess {
       

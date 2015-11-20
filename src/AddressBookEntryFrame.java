@@ -1,5 +1,4 @@
-// Fig. 8.37: AddressBookEntryFrame.java
-// A subclass of JInternalFrame customized to display and 
+// A subclass of JInternalFrame customized to display and
 // an AddressBookEntry or set an AddressBookEntry's properties
 // based on the current data in the UI.
 
@@ -64,7 +63,7 @@ public class AddressBookEntryFrame extends JInternalFrame {
       yOffset = ( yOffset + 30 ) % 300;
    }
 
-   // set AddressBookEntry then use its properties to 
+   // set AddressBookEntry then use its properties to
    // place data in each JTextField
    public void setAddressBookEntry( AddressBookEntry entry )
    {
@@ -81,7 +80,7 @@ public class AddressBookEntryFrame extends JInternalFrame {
       setField( EMAIL, person.getEmailAddress() );
    }
    
-   // store AddressBookEntry data from GUI and return 
+   // store AddressBookEntry data from GUI and return
    // AddressBookEntry
    public AddressBookEntry getAddressBookEntry()
    {

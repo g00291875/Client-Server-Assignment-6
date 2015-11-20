@@ -1,4 +1,3 @@
-// Fig. 8.35 DataAccessException.java
 // Class AddressBookDataAccess throws DataAccessExceptions
 // when there is a problem accessing the data source.
 
