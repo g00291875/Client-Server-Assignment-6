@@ -13,7 +13,7 @@
       <column name="address1" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
       <column name="address2" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
       <column name="city" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12"/>
-      <column name="state" sqlType="VARCHAR" precision="2" scale="0" nullable="true" jdbcType="12"/>
+      <column name="county" sqlType="VARCHAR" precision="2" scale="0" nullable="true" jdbcType="12"/>
       <column name="zipcode" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="addressID"/>
       <foreign-key name="fk_addresses" columns="personID" ref-table="names" ref-schema="" ref-catalog="addressbook" ref-columns="personID" update-rule="3" delete-rule="3" deferrability="2"/>

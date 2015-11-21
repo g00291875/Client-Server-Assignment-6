@@ -29,7 +29,7 @@ public class AddressBookEntryFrame extends JInternalFrame {
    // HashMap fields.
    private static final String FIRST_NAME = "First Name", 
       LAST_NAME = "Last Name", ADDRESS1 = "Address 1", 
-      ADDRESS2 = "Address 2", CITY = "City", STATE = "State", 
+      ADDRESS2 = "Address 2", CITY = "City", STATE = "County",
       ZIPCODE = "Zipcode", PHONE = "Phone", EMAIL = "Email";
   
    // construct GUI

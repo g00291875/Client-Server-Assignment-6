@@ -10,6 +10,9 @@ public class AddressBookEntry {
    private String zipcode = "";
    private String phoneNumber = "";
    private String emailAddress = "";
+
+   private String county = "";
+
    private int personID;
    private int addressID;
    private int phoneID;
@@ -91,13 +94,24 @@ public class AddressBookEntry {
    {
       state = personState;
    }
-   
+
    // get state in which person lives
    public String getState()
    {
       return state;
    }
-   
+
+   /****************************************************************/
+   // set state in which person lives
+   public void setCounty( String personCounty )
+   {
+      county = personCounty;
+   }
+
+   public String getCounty() {
+      return county;
+   }
+   /******************************************************/
    // set person's zip code
    public void setZipcode( String zip )
    {
