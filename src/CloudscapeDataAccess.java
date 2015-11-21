@@ -192,18 +192,11 @@ public class CloudscapeDataAccess
          /***************************/
         // person.setZipcode( resultSet.getString( 9 ) );
 
-         person.setPhoneID( resultSet.getInt( 10 ) );
-         person.setPhoneNumber( resultSet.getString( 11 ) );
+         person.setPhoneID( resultSet.getInt( 9 ) );
+         person.setPhoneNumber( resultSet.getString( 10 ) );
 
-         person.setEmailID( resultSet.getInt( 12 ) );
-         person.setEmailAddress( resultSet.getString( 13 ) );
-
-         System.out.println(resultSet.getString( 1 ));
-         System.out.println(resultSet.getString( 2 ));
-         System.out.println(resultSet.getString( 3 ));
-         System.out.println(resultSet.getString( 4 ));
-         System.out.println(resultSet.getString( 5 ));
-
+         person.setEmailID( resultSet.getInt( 11 ) );
+         person.setEmailAddress( resultSet.getString( 12 ) );
 
          // return AddressBookEntry
          return person;

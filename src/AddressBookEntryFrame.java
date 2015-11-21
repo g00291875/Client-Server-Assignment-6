@@ -75,7 +75,7 @@ public class AddressBookEntryFrame extends JInternalFrame {
       setField( ADDRESS2, person.getAddress2() );
       setField( CITY, person.getCity() );
       setField( STATE, person.getState() );
-      setField( ZIPCODE, person.getZipcode() );
+     // setField( ZIPCODE, person.getZipcode() );
       setField( PHONE, person.getPhoneNumber() );
       setField( EMAIL, person.getEmailAddress() );
    }

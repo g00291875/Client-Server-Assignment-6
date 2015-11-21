@@ -338,6 +338,11 @@ public class AddressBook extends JFrame {
             AddressBookEntry person = database.findPerson( 
                lastName );
 
+            /***********************************/
+
+
+         /******************************************/
+
             if ( person != null ) {
                   
                // create window to display AddressBookEntry
