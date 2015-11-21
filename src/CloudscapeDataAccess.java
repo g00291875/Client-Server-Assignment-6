@@ -40,7 +40,7 @@ public class CloudscapeDataAccess
       sqlFind = connection.prepareStatement(
               "SELECT names.personID, firstName, lastName, " +
                       "addressID, address1, address2, city, county, " +
-                      "zipcode, phoneID, phoneNumber, emailID, " +
+                      "phoneID, phoneNumber, emailID, " +
                       "emailAddress " +
                       "FROM names, addresses, phoneNumbers, emailAddresses " +
                       "WHERE lastName = ? AND " +
@@ -65,8 +65,8 @@ public class CloudscapeDataAccess
       // insert address in table addresses
       sqlInsertAddress = connection.prepareStatement(
               "INSERT INTO addresses ( personID, address1, " +
-                      "address2, city, county, zipcode ) " +
-                      "VALUES ( ? , ? , ? , ? , ? , ? )" );
+                      "address2, city, county ) " +
+                      "VALUES ( ? , ? , ? , ? , ? )" );
 
       // insert phone number in table phoneNumbers
       sqlInsertPhone = connection.prepareStatement(
@@ -88,7 +88,7 @@ public class CloudscapeDataAccess
       // update address in table addresses
       sqlUpdateAddress = connection.prepareStatement(
               "UPDATE addresses SET address1 = ?, address2 = ?, " +
-                      "city = ?, county = ?, zipcode = ? " +
+                      "city = ?, county = ?" +
                       "WHERE addressID = ?" );
 
       // update phone number in table phoneNumbers
@@ -190,13 +190,20 @@ public class CloudscapeDataAccess
          /***************************/
          //person.setCounty( resultSet.getString( 8 ) );
          /***************************/
-         person.setZipcode( resultSet.getString( 9 ) );
+        // person.setZipcode( resultSet.getString( 9 ) );
 
          person.setPhoneID( resultSet.getInt( 10 ) );
          person.setPhoneNumber( resultSet.getString( 11 ) );
 
          person.setEmailID( resultSet.getInt( 12 ) );
          person.setEmailAddress( resultSet.getString( 13 ) );
+
+         System.out.println(resultSet.getString( 1 ));
+         System.out.println(resultSet.getString( 2 ));
+         System.out.println(resultSet.getString( 3 ));
+         System.out.println(resultSet.getString( 4 ));
+         System.out.println(resultSet.getString( 5 ));
+
 
          // return AddressBookEntry
          return person;
@@ -217,6 +224,11 @@ public class CloudscapeDataAccess
       try {
          int result;
 
+         /**************************************************************/
+
+         System.out.println(person.getFirstName());
+         System.out.println(person.getLastName());
+         /**************************************************************/
          // update names table
          sqlUpdateName.setString( 1, person.getFirstName() );
          sqlUpdateName.setString( 2, person.getLastName() );
@@ -237,8 +249,8 @@ public class CloudscapeDataAccess
           /***************************************************/
 
           /***************************************************/
-         sqlUpdateAddress.setString( 5, person.getZipcode() );
-         sqlUpdateAddress.setInt( 6, person.getAddressID() );
+         //sqlUpdateAddress.setString( 5, person.getZipcode() );
+         sqlUpdateAddress.setInt( 5, person.getAddressID() );
          result = sqlUpdateAddress.executeUpdate();
 
          // if update fails, rollback and discontinue
@@ -329,8 +341,6 @@ public class CloudscapeDataAccess
                     person.getCity() );
             sqlInsertAddress.setString( 5,
                     person.getState() );
-            sqlInsertAddress.setString( 6,
-                    person.getZipcode() );
             result = sqlInsertAddress.executeUpdate();
 
             // if insert fails, rollback and discontinue
