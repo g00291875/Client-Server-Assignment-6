@@ -29,6 +29,7 @@ public class CloudscapeDataAccess
    private PreparedStatement sqlDeleteAddress;
    private PreparedStatement sqlDeletePhone;
    private PreparedStatement sqlDeleteEmail;
+   private PreparedStatement sqltestFind;
 
    // set up PreparedStatements to access database
    public CloudscapeDataAccess() throws Exception
@@ -47,6 +48,18 @@ public class CloudscapeDataAccess
                       "names.personID = addresses.personID AND " +
                       "names.personID = phoneNumbers.personID AND " +
                       "names.personID = emailAddresses.personID" );
+  //    select count(id), name
+  //    from programparticipants
+  //    group by name
+  //    having count(id) > 1
+           sqltestFind = connection.prepareStatement(
+           "SELECT names.personID, firstName, lastName, " +
+                   "addressID, address1, address2, city, county, " +
+                   "phoneID, phoneNumber, emailID, " +
+                   "emailAddress " +
+
+                   "FROM names, addresses, phoneNumbers, emailAddresses " +
+                   "WHERE lastName = ?");
 
       // Obtain personID for last person inserted in database.
       // [This is a Cloudscape-specific database operation.]
@@ -165,10 +178,13 @@ public class CloudscapeDataAccess
    // containing information.
    public AddressBookEntry findPerson( String lastName )
    {
+     // List<Person> = new Person
       try {
          // set query parameter and execute query
          sqlFind.setString( 1, lastName );
          ResultSet resultSet = sqlFind.executeQuery();
+        // sqltestFind.setString( 1, lastName );
+       // ResultSet resultSet = sqltestFind.executeQuery();
 
          // if no records found, return immediately
          if ( !resultSet.next() )
@@ -197,6 +213,18 @@ public class CloudscapeDataAccess
 
          person.setEmailID( resultSet.getInt( 11 ) );
          person.setEmailAddress( resultSet.getString( 12 ) );
+
+         if ( !resultSet.next() )
+            return null;
+
+         AddressBookEntry person2 = new AddressBookEntry(
+                 resultSet.getInt( 1 ) );
+
+         person2.setFirstName( resultSet.getString( 2 ) );
+         person2.setLastName( resultSet.getString( 3 ) );
+
+         person2.setAddressID( resultSet.getInt( 4 ) );
+         person2.setAddress1( resultSet.getString( 5 ) );
 
          // return AddressBookEntry
          return person;

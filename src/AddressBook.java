@@ -346,15 +346,24 @@ public class AddressBook extends JFrame {
             if ( person != null ) {
                   
                // create window to display AddressBookEntry
+               /******************************************/
                AddressBookEntryFrame entryFrame =
                   createAddressBookEntryFrame();
-                 
                // set AddressBookEntry to display
                entryFrame.setAddressBookEntry( person );
-                  
                // display window
                desktop.add( entryFrame );
+               /******************************************/
+               AddressBookEntryFrame entryFrame2 =
+                       createAddressBookEntryFrame();
+
+               desktop.add( entryFrame2 );
+
+               // set AddressBookEntry to display
+               entryFrame2.setAddressBookEntry( person );
+               entryFrame.setAddressBookEntry( person );
                entryFrame.setVisible( true );
+               entryFrame2.setVisible( true );
             }
             else
                JOptionPane.showMessageDialog( desktop, 
