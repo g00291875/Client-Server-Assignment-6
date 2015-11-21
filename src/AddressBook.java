@@ -10,6 +10,8 @@ import java.awt.event.*;
 // Java extension packages
 import javax.swing.*;
 import javax.swing.event.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class AddressBook extends JFrame {
    
@@ -325,6 +327,11 @@ public class AddressBook extends JFrame {
       // locate existing entry
       public void actionPerformed( ActionEvent e )
       {
+         List<AddressBookEntry> entryList = new ArrayList<>();
+
+        // List<Person> personList = new ArrayList<>();
+
+
          String lastName = 
             JOptionPane.showInputDialog( desktop,
                "Enter last name" );
@@ -332,45 +339,44 @@ public class AddressBook extends JFrame {
          // if last name was input, search for it; otherwise,
          // do nothing
          if ( lastName != null ) {
-               
+
             // Execute search. If found, AddressBookEntry
             // is returned containing data.
-            AddressBookEntry person = database.findPerson( 
-               lastName );
+//            AddressBookEntry person = database.findPerson(
+//               lastName );
 
             /***********************************/
+            entryList = database.findPerson(
+                    lastName);
 
+            int listCount = entryList.size();
+            AddressBookEntryFrame [] frameArray = new AddressBookEntryFrame[listCount];
+            /******************************************/
+         int i = 0;
+            for (AddressBookEntry fram : entryList) {
+               if (fram != null) {
+                  // create window to display AddressBookEntry
+                  /******************************************/
+//                  AddressBookEntryFrame entryFrame =
+//                          createAddressBookEntryFrame();
+//                  // set AddressBookEntry to display
+//                  entryFrame.setAddressBookEntry(fram);
+//                  // display window
+//                  desktop.add(entryFrame);
+//                  entryFrame.setVisible(true);
+                  /******************************************/
+                  frameArray[i] = createAddressBookEntryFrame();
+                  frameArray[i].setAddressBookEntry(fram);
+                  desktop.add(frameArray[i]);
+                  frameArray[i].setVisible(true);
+                  i++;
+               } else {
+                  JOptionPane.showMessageDialog(desktop, "Entry with last name \"" + lastName + "\" not found in address book");
+               }
 
-         /******************************************/
-
-            if ( person != null ) {
-                  
-               // create window to display AddressBookEntry
-               /******************************************/
-               AddressBookEntryFrame entryFrame =
-                  createAddressBookEntryFrame();
-               // set AddressBookEntry to display
-               entryFrame.setAddressBookEntry( person );
-               // display window
-               desktop.add( entryFrame );
-               /******************************************/
-               AddressBookEntryFrame entryFrame2 =
-                       createAddressBookEntryFrame();
-
-               desktop.add( entryFrame2 );
-
-               // set AddressBookEntry to display
-               entryFrame2.setAddressBookEntry( person );
-               entryFrame.setAddressBookEntry( person );
-               entryFrame.setVisible( true );
-               entryFrame2.setVisible( true );
             }
-            else
-               JOptionPane.showMessageDialog( desktop, 
-                  "Entry with last name \"" + lastName + 
-                  "\" not found in address book" );
-            
-         }  // end "if ( lastName == null )"
+            // end "if ( lastName == null )"
+         }
          
       }  // end method actionPerformed
       
