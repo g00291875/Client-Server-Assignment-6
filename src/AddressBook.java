@@ -23,7 +23,7 @@ public class AddressBook extends JFrame {
 
    // references to Actions
    Action newAction, saveAction, deleteAction, 
-      searchAction, exitAction;
+      searchAction, exitAction, updateAction;
    
    // set up database connection and GUI
    public AddressBook() 
@@ -55,6 +55,10 @@ public class AddressBook extends JFrame {
       deleteAction.setEnabled( false );  // disabled by default
       searchAction = new SearchAction();
       exitAction = new ExitAction();
+      /************************/
+      updateAction = new updateAction();
+      updateAction.setEnabled(false);  // disabled by default
+      /************************/
       
       // add actions to tool bar
       toolBar.add( newAction );
@@ -62,6 +66,9 @@ public class AddressBook extends JFrame {
       toolBar.add( deleteAction );
       toolBar.add( new JToolBar.Separator() );
       toolBar.add( searchAction );
+      /************************/
+      toolBar.add( updateAction );
+      /************************/
 
       // add actions to File menu
       fileMenu.add( newAction );
@@ -71,6 +78,9 @@ public class AddressBook extends JFrame {
       fileMenu.add( searchAction );
       fileMenu.addSeparator();
       fileMenu.add( exitAction );
+      /************************/
+      fileMenu.add( updateAction );
+      /************************/
       
       // set up menu bar
       JMenuBar menuBar = new JMenuBar();
@@ -118,6 +128,7 @@ public class AddressBook extends JFrame {
    // create a new AddressBookEntryFrame and register listener
    private AddressBookEntryFrame createAddressBookEntryFrame()
    {
+
       AddressBookEntryFrame frame = new AddressBookEntryFrame();
       setDefaultCloseOperation( DISPOSE_ON_CLOSE );
       frame.addInternalFrameListener( 
@@ -127,6 +138,7 @@ public class AddressBook extends JFrame {
             public void internalFrameActivated( 
                InternalFrameEvent event )
             {
+               updateAction.setEnabled( true);
                saveAction.setEnabled( true );  
                deleteAction.setEnabled( true );  
             }
@@ -308,7 +320,25 @@ public class AddressBook extends JFrame {
       }  // end method actionPerformed 
       
    }  // end inner class DeleteAction
-   
+
+   /*******************************************************************************/
+   private class updateAction extends AbstractAction {
+   public updateAction(){
+      putValue( NAME, "Update" );
+      putValue( SMALL_ICON, new ImageIcon(
+              getClass().getResource("images/Edit24.png") ) );
+      putValue( SHORT_DESCRIPTION, "Update" );
+      putValue( LONG_DESCRIPTION,
+              "Update an address book entry" );
+      putValue( MNEMONIC_KEY, new Integer( 'U' ) );
+   }
+
+      public void actionPerformed( ActionEvent e )
+      {
+
+      }
+   }
+   /*******************************************************************************/
    // inner class defines action that locates entry
    private class SearchAction extends AbstractAction {
       

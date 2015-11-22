@@ -25,7 +25,10 @@ public interface AddressBookDataAccess {
    // success or failure.
    public boolean deletePerson( 
       AddressBookEntry person ) throws DataAccessException;
-      
+
+ //  public boolean updatePerson(AddressBookEntry person )
+  //         throws DataAccessException;
+
    // close data source connection
    public void close(); 
 }  // end interface AddressBookDataAccess

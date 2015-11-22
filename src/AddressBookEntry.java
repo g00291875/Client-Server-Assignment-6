@@ -7,16 +7,76 @@ public class AddressBookEntry {
    private String address2 = "";
    private String city = "";
    private String state = "";
+   /**************************/
+   private String address12 = "";
+   private String address22 = "";
+   private String city2 = "";
+   private String state2 = "";
+   /**************************/
    private String zipcode = "";
-   private String phoneNumber = "";
-   private String emailAddress = "";
+   private String phoneNumber2 = "";
 
-   private String county = "";
+   private String emailAddress2 = "";
+   private String phoneNumber = "";
+
+   private String emailAddress = "";
 
    private int personID;
    private int addressID;
    private int phoneID;
    private int emailID;
+
+   public String getPhoneNumber2() {
+      return phoneNumber2;
+   }
+
+   public void setPhoneNumber2(String phoneNumber2) {
+      this.phoneNumber2 = phoneNumber2;
+   }
+
+   public String getEmailAddress2() {
+      return emailAddress2;
+   }
+
+   public void setEmailAddress2(String emailAddress2) {
+      this.emailAddress2 = emailAddress2;
+   }
+
+
+
+   public String getAddress22() {
+      return address22;
+   }
+
+   public void setAddress22(String address22) {
+      this.address22 = address22;
+   }
+
+   public String getAddress12() {
+      return address12;
+   }
+
+   public void setAddress12(String address12) {
+      this.address12 = address12;
+   }
+
+   public String getCity2() {
+      return city2;
+   }
+
+   public void setCity2(String city2) {
+      this.city2 = city2;
+   }
+
+   public String getState2() {
+      return state2;
+   }
+
+   public void setState2(String state2) {
+      this.state2 = state2;
+   }
+
+
    
    // empty constructor
    public AddressBookEntry()
@@ -103,14 +163,6 @@ public class AddressBookEntry {
 
    /****************************************************************/
    // set state in which person lives
-   public void setCounty( String personCounty )
-   {
-      county = personCounty;
-   }
-
-   public String getCounty() {
-      return county;
-   }
    /******************************************************/
    // set person's zip code
    public void setZipcode( String zip )
