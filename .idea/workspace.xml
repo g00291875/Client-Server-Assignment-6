@@ -4,15 +4,10 @@
     <list default="true" id="5b877d81-77bb-4e23-b898-9a282001792a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/A6/AddressBook$ExitAction.class" afterPath="$PROJECT_DIR$/out/production/A6/AddressBook$ExitAction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/A6/AddressBook$SearchAction.class" afterPath="$PROJECT_DIR$/out/production/A6/AddressBook$SearchAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/A6/AddressBook.class" afterPath="$PROJECT_DIR$/out/production/A6/AddressBook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/A6/AddressBookEntryFrame.class" afterPath="$PROJECT_DIR$/out/production/A6/AddressBookEntryFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/A6/CloudscapeDataAccess.class" afterPath="$PROJECT_DIR$/out/production/A6/CloudscapeDataAccess.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AddressBook.java" afterPath="$PROJECT_DIR$/src/AddressBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AddressBookDataAccess.java" afterPath="$PROJECT_DIR$/src/AddressBookDataAccess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AddressBookEntry.java" afterPath="$PROJECT_DIR$/src/AddressBookEntry.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AddressBookEntryFrame.java" afterPath="$PROJECT_DIR$/src/AddressBookEntryFrame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CloudscapeDataAccess.java" afterPath="$PROJECT_DIR$/src/CloudscapeDataAccess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="A6.iws" />
@@ -48,6 +43,64 @@
         <option name="myItemId" value="addressbook" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="phonenumbers" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - @localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="addressbook" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="names" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - @localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="addressbook" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="emailaddresses" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - @localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="addressbook" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="addresses" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -59,15 +112,11 @@
       <file leaf-file-name="AddressBook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AddressBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.071429">
-              <caret line="241" column="24" selection-start-line="241" selection-start-column="24" selection-end-line="241" selection-end-column="24" />
+            <state vertical-scroll-proportion="-0.4827586">
+              <caret line="385" column="29" selection-start-line="385" selection-start-column="29" selection-end-line="385" selection-end-column="29" />
               <folding>
-                <element signature="e#0#15890#0" expanded="true" />
+                <element signature="e#0#16002#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#3171#3317#0" expanded="true" />
-                <element signature="e#3316#3317#0" expanded="true" />
-                <element signature="e#5085#5086#0" expanded="true" />
-                <element signature="e#5115#5116#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,148 +125,47 @@
       <file leaf-file-name="CloudscapeDataAccess.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CloudscapeDataAccess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.25">
-              <caret line="293" column="0" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.5172415">
+              <caret line="268" column="15" selection-start-line="268" selection-start-column="15" selection-end-line="268" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#21368#21369#0" expanded="true" />
-                <element signature="e#21388#21389#0" expanded="true" />
-                <marker date="1448216644000" expanded="true" signature="1832:2379" placeholder="SELECT names..names..." />
-                <marker date="1448216644000" expanded="true" signature="2569:2905" placeholder="SELECT names..names..." />
-                <marker date="1448216644000" expanded="true" signature="3238:3261" placeholder="select last_..." />
-                <marker date="1448216644000" expanded="true" signature="3521:3606" placeholder="INSERT INTO ..." />
-                <marker date="1448216644000" expanded="true" signature="3724:3875" placeholder="INSERT INTO ..." />
-                <marker date="1448216644000" expanded="true" signature="4014:4271" placeholder="INSERT INTO ..." />
-                <marker date="1448216644000" expanded="true" signature="4056:4271" placeholder="UPDATE addre..." />
-                <marker date="1448216644000" expanded="true" signature="4449:4569" placeholder="INSERT INTO ..." />
-                <marker date="1448216644000" expanded="true" signature="4688:4812" placeholder="INSERT INTO ..." />
-                <marker date="1448216644000" expanded="true" signature="4936:5026" placeholder="UPDATE names..." />
-                <marker date="1448216644000" expanded="true" signature="5144:5286" placeholder="UPDATE addre..." />
-                <marker date="1448216644000" expanded="true" signature="5418:5514" placeholder="UPDATE addre..." />
-                <marker date="1448216644000" expanded="true" signature="5418:5650" placeholder="UPDATE addre..." />
-                <marker date="1448216644000" expanded="true" signature="5827:5911" placeholder="UPDATE phone..." />
-                <marker date="1448216644000" expanded="true" signature="6030:6117" placeholder="UPDATE email..." />
-                <marker date="1448216644000" expanded="true" signature="6360:6396" placeholder="DELETE FROM ..." />
-                <marker date="1448216644000" expanded="true" signature="6516:6556" placeholder="DELETE FROM ..." />
-                <marker date="1448216644000" expanded="true" signature="6682:6725" placeholder="DELETE FROM ..." />
-                <marker date="1448216644000" expanded="true" signature="6854:6899" placeholder="DELETE FROM ..." />
+                <element signature="e#9895#9913#0" expanded="true" />
+                <element signature="e#23367#23368#0" expanded="true" />
+                <element signature="e#23387#23388#0" expanded="true" />
+                <marker date="1448373420000" expanded="true" signature="1928:2475" placeholder="SELECT names..names..." />
+                <marker date="1448373420000" expanded="true" signature="2545:3197" placeholder="SELECT names..names..." />
+                <marker date="1448373420000" expanded="true" signature="3387:3723" placeholder="SELECT names..names..." />
+                <marker date="1448373420000" expanded="true" signature="4056:4079" placeholder="select last_..." />
+                <marker date="1448373420000" expanded="true" signature="4339:4424" placeholder="INSERT INTO ..." />
+                <marker date="1448373420000" expanded="true" signature="4542:4693" placeholder="INSERT INTO ..." />
+                <marker date="1448373420000" expanded="true" signature="4832:5089" placeholder="INSERT INTO ..." />
+                <marker date="1448373420000" expanded="true" signature="4874:5089" placeholder="UPDATE addre..." />
+                <marker date="1448373420000" expanded="true" signature="5267:5406" placeholder="INSERT INTO ..." />
+                <marker date="1448373420000" expanded="true" signature="5525:5668" placeholder="INSERT INTO ..." />
+                <marker date="1448373420000" expanded="true" signature="5792:5882" placeholder="UPDATE names..." />
+                <marker date="1448373420000" expanded="true" signature="6000:6142" placeholder="UPDATE addre..." />
+                <marker date="1448373420000" expanded="true" signature="6274:6370" placeholder="UPDATE addre..." />
+                <marker date="1448373420000" expanded="true" signature="6274:6507" placeholder="UPDATE addre..." />
+                <marker date="1448373420000" expanded="true" signature="6684:6813" placeholder="UPDATE phone..." />
+                <marker date="1448373420000" expanded="true" signature="6949:6990" placeholder="UPDATE phone..." />
+                <marker date="1448373420000" expanded="true" signature="6949:7036" placeholder="UPDATE phone..." />
+                <marker date="1448373420000" expanded="true" signature="6949:7081" placeholder="UPDATE phone..." />
+                <marker date="1448373420000" expanded="true" signature="7200:7333" placeholder="UPDATE email..." />
+                <marker date="1448373420000" expanded="true" signature="7576:7612" placeholder="DELETE FROM ..." />
+                <marker date="1448373420000" expanded="true" signature="7732:7772" placeholder="DELETE FROM ..." />
+                <marker date="1448373420000" expanded="true" signature="7898:7941" placeholder="DELETE FROM ..." />
+                <marker date="1448373420000" expanded="true" signature="8070:8115" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addressbook.addresses" pinned="false" current-in-tab="true">
-        <entry file="dbDummy://dbtable:/41340e67/1f8f0b62-8f50-4ef6-af96-769b6978353e/addressbook..addresses">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addressbook.names" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/41340e67/1f8f0b62-8f50-4ef6-af96-769b6978353e/addressbook..names">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addressbook.phonenumbers" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/41340e67/1f8f0b62-8f50-4ef6-af96-769b6978353e/addressbook..phonenumbers">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddressBookEntryFrame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddressBookEntryFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AddressBookEntryFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9464285">
-              <caret line="112" column="53" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.46896553">
+              <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddressBookEntry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AddressBookEntry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-57.925926">
-              <caret line="92" column="15" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
-              <folding>
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1130#1131#0" expanded="true" />
-                <element signature="e#1159#1160#0" expanded="true" />
-                <element signature="e#1208#1209#0" expanded="true" />
-                <element signature="e#1247#1248#0" expanded="true" />
-                <element signature="e#1282#1283#0" expanded="true" />
-                <element signature="e#1311#1312#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
-                <element signature="e#1430#1431#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
-                <element signature="e#1496#1497#0" expanded="true" />
-                <element signature="e#1527#1528#0" expanded="true" />
-                <element signature="e#1559#1560#0" expanded="true" />
-                <element signature="e#1585#1586#0" expanded="true" />
-                <element signature="e#1628#1629#0" expanded="true" />
-                <element signature="e#1661#1662#0" expanded="true" />
-                <element signature="e#1795#1796#0" expanded="true" />
-                <element signature="e#1821#1822#0" expanded="true" />
-                <element signature="e#1904#1905#0" expanded="true" />
-                <element signature="e#1934#1935#0" expanded="true" />
-                <element signature="e#2005#2006#0" expanded="true" />
-                <element signature="e#2034#2035#0" expanded="true" />
-                <element signature="e#2114#2115#0" expanded="true" />
-                <element signature="e#2142#2143#0" expanded="true" />
-                <element signature="e#2211#2212#0" expanded="true" />
-                <element signature="e#2239#2240#0" expanded="true" />
-                <element signature="e#2336#2337#0" expanded="true" />
-                <element signature="e#2369#2370#0" expanded="true" />
-                <element signature="e#2450#2451#0" expanded="true" />
-                <element signature="e#2478#2479#0" expanded="true" />
-                <element signature="e#2577#2578#0" expanded="true" />
-                <element signature="e#2611#2612#0" expanded="true" />
-                <element signature="e#2693#2694#0" expanded="true" />
-                <element signature="e#2721#2722#0" expanded="true" />
-                <element signature="e#2811#2812#0" expanded="true" />
-                <element signature="e#2841#2842#0" expanded="true" />
-                <element signature="e#2914#2915#0" expanded="true" />
-                <element signature="e#2938#2939#0" expanded="true" />
-                <element signature="e#3031#3032#0" expanded="true" />
-                <element signature="e#3063#3064#0" expanded="true" />
-                <element signature="e#3135#3136#0" expanded="true" />
-                <element signature="e#3160#3161#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -239,11 +187,11 @@
         <option value="$PROJECT_DIR$/src/V1/AddressBook.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/feb91414-6e89-4190-9d4c-3632f2a7d4fd/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6ef49b8d-319e-42b3-bf39-e564666b7685/console.sql" />
-        <option value="$PROJECT_DIR$/src/AddressBook.java" />
         <option value="$PROJECT_DIR$/src/AddressBookDataAccess.java" />
         <option value="$PROJECT_DIR$/src/AddressBookEntry.java" />
-        <option value="$PROJECT_DIR$/src/AddressBookEntryFrame.java" />
+        <option value="$PROJECT_DIR$/src/AddressBook.java" />
         <option value="$PROJECT_DIR$/src/CloudscapeDataAccess.java" />
+        <option value="$PROJECT_DIR$/src/AddressBookEntryFrame.java" />
       </list>
     </option>
   </component>
@@ -290,9 +238,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -345,6 +292,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -618,6 +566,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Unknown" factoryName="Unknown">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -659,16 +610,17 @@
       <workItem from="1448038697046" duration="3342000" />
       <workItem from="1448109929455" duration="3181000" />
       <workItem from="1448113424366" duration="17703000" />
-      <workItem from="1448211753137" duration="4956000" />
+      <workItem from="1448211753137" duration="6439000" />
+      <workItem from="1448364570442" duration="5585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33559000" />
+    <option name="totallyTimeSpent" value="40627000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -678,16 +630,16 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06288344" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2898773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2898773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1913767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11270802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17927383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30981594" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37576687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -736,7 +688,33 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AddressBook.java</url>
+          <line>382</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CloudscapeDataAccess.java</url>
+          <line>330</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CloudscapeDataAccess.java</url>
+          <line>342</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AddressBook.java</url>
+          <line>378</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -745,16 +723,32 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AddressBookEntryFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="53" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddressBookEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="15" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
+          <folding>
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AddressBookEntry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
           <folding>
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#3610#3611#0" expanded="false" />
-            <element signature="e#3643#3644#0" expanded="false" />
-            <element signature="e#3719#3720#0" expanded="false" />
-            <element signature="e#3750#3751#0" expanded="false" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -771,12 +765,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="118" column="27" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="27" />
           <folding>
-            <element signature="e#0#15890#0" expanded="true" />
+            <element signature="e#0#16002#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3171#3317#0" expanded="true" />
-            <element signature="e#3316#3317#0" expanded="true" />
-            <element signature="e#5085#5086#0" expanded="true" />
-            <element signature="e#5115#5116#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -794,11 +784,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#3610#3611#0" expanded="false" />
-            <element signature="e#3643#3644#0" expanded="false" />
-            <element signature="e#3719#3720#0" expanded="false" />
-            <element signature="e#3750#3751#0" expanded="false" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -809,27 +796,32 @@
           <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#21368#21369#0" expanded="true" />
-            <element signature="e#21388#21389#0" expanded="true" />
-            <marker date="1448216644000" expanded="true" signature="1832:2379" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="2569:2905" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="3238:3261" placeholder="select last_..." />
-            <marker date="1448216644000" expanded="true" signature="3521:3606" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="3724:3875" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4014:4271" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4056:4271" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="4449:4569" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4688:4812" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4936:5026" placeholder="UPDATE names..." />
-            <marker date="1448216644000" expanded="true" signature="5144:5286" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5514" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5650" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5827:5911" placeholder="UPDATE phone..." />
-            <marker date="1448216644000" expanded="true" signature="6030:6117" placeholder="UPDATE email..." />
-            <marker date="1448216644000" expanded="true" signature="6360:6396" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6516:6556" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6682:6725" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6854:6899" placeholder="DELETE FROM ..." />
+            <element signature="e#9895#9913#0" expanded="true" />
+            <element signature="e#23367#23368#0" expanded="true" />
+            <element signature="e#23387#23388#0" expanded="true" />
+            <marker date="1448373420000" expanded="true" signature="1928:2475" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="2545:3197" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="3387:3723" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="4056:4079" placeholder="select last_..." />
+            <marker date="1448373420000" expanded="true" signature="4339:4424" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4542:4693" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4832:5089" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4874:5089" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="5267:5406" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5525:5668" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5792:5882" placeholder="UPDATE names..." />
+            <marker date="1448373420000" expanded="true" signature="6000:6142" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6370" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6507" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6684:6813" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:6990" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7036" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7081" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="7200:7333" placeholder="UPDATE email..." />
+            <marker date="1448373420000" expanded="true" signature="7576:7612" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7732:7772" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7898:7941" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="8070:8115" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -839,12 +831,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="307" column="37" selection-start-line="307" selection-start-column="37" selection-end-line="307" selection-end-column="37" />
           <folding>
-            <element signature="e#0#15890#0" expanded="true" />
+            <element signature="e#0#16002#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3171#3317#0" expanded="true" />
-            <element signature="e#3316#3317#0" expanded="true" />
-            <element signature="e#5085#5086#0" expanded="true" />
-            <element signature="e#5115#5116#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -854,11 +842,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#3610#3611#0" expanded="false" />
-            <element signature="e#3643#3644#0" expanded="false" />
-            <element signature="e#3719#3720#0" expanded="false" />
-            <element signature="e#3750#3751#0" expanded="false" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -869,27 +854,32 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#21368#21369#0" expanded="true" />
-            <element signature="e#21388#21389#0" expanded="true" />
-            <marker date="1448216644000" expanded="true" signature="1832:2379" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="2569:2905" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="3238:3261" placeholder="select last_..." />
-            <marker date="1448216644000" expanded="true" signature="3521:3606" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="3724:3875" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4014:4271" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4056:4271" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="4449:4569" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4688:4812" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4936:5026" placeholder="UPDATE names..." />
-            <marker date="1448216644000" expanded="true" signature="5144:5286" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5514" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5650" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5827:5911" placeholder="UPDATE phone..." />
-            <marker date="1448216644000" expanded="true" signature="6030:6117" placeholder="UPDATE email..." />
-            <marker date="1448216644000" expanded="true" signature="6360:6396" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6516:6556" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6682:6725" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6854:6899" placeholder="DELETE FROM ..." />
+            <element signature="e#9895#9913#0" expanded="true" />
+            <element signature="e#23367#23368#0" expanded="true" />
+            <element signature="e#23387#23388#0" expanded="true" />
+            <marker date="1448373420000" expanded="true" signature="1928:2475" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="2545:3197" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="3387:3723" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="4056:4079" placeholder="select last_..." />
+            <marker date="1448373420000" expanded="true" signature="4339:4424" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4542:4693" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4832:5089" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4874:5089" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="5267:5406" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5525:5668" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5792:5882" placeholder="UPDATE names..." />
+            <marker date="1448373420000" expanded="true" signature="6000:6142" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6370" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6507" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6684:6813" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:6990" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7036" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7081" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="7200:7333" placeholder="UPDATE email..." />
+            <marker date="1448373420000" expanded="true" signature="7576:7612" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7732:7772" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7898:7941" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="8070:8115" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -916,12 +906,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15890#0" expanded="true" />
+            <element signature="e#0#16002#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3171#3317#0" expanded="true" />
-            <element signature="e#3316#3317#0" expanded="true" />
-            <element signature="e#5085#5086#0" expanded="true" />
-            <element signature="e#5115#5116#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -932,27 +918,32 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#21368#21369#0" expanded="true" />
-            <element signature="e#21388#21389#0" expanded="true" />
-            <marker date="1448216644000" expanded="true" signature="1832:2379" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="2569:2905" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="3238:3261" placeholder="select last_..." />
-            <marker date="1448216644000" expanded="true" signature="3521:3606" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="3724:3875" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4014:4271" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4056:4271" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="4449:4569" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4688:4812" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4936:5026" placeholder="UPDATE names..." />
-            <marker date="1448216644000" expanded="true" signature="5144:5286" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5514" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5650" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5827:5911" placeholder="UPDATE phone..." />
-            <marker date="1448216644000" expanded="true" signature="6030:6117" placeholder="UPDATE email..." />
-            <marker date="1448216644000" expanded="true" signature="6360:6396" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6516:6556" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6682:6725" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6854:6899" placeholder="DELETE FROM ..." />
+            <element signature="e#9895#9913#0" expanded="true" />
+            <element signature="e#23367#23368#0" expanded="true" />
+            <element signature="e#23387#23388#0" expanded="true" />
+            <marker date="1448373420000" expanded="true" signature="1928:2475" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="2545:3197" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="3387:3723" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="4056:4079" placeholder="select last_..." />
+            <marker date="1448373420000" expanded="true" signature="4339:4424" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4542:4693" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4832:5089" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4874:5089" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="5267:5406" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5525:5668" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5792:5882" placeholder="UPDATE names..." />
+            <marker date="1448373420000" expanded="true" signature="6000:6142" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6370" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6507" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6684:6813" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:6990" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7036" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7081" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="7200:7333" placeholder="UPDATE email..." />
+            <marker date="1448373420000" expanded="true" signature="7576:7612" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7732:7772" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7898:7941" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="8070:8115" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -969,12 +960,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15890#0" expanded="true" />
+            <element signature="e#0#16002#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3171#3317#0" expanded="true" />
-            <element signature="e#3316#3317#0" expanded="true" />
-            <element signature="e#5085#5086#0" expanded="true" />
-            <element signature="e#5115#5116#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -985,27 +972,32 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#21368#21369#0" expanded="true" />
-            <element signature="e#21388#21389#0" expanded="true" />
-            <marker date="1448216644000" expanded="true" signature="1832:2379" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="2569:2905" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="3238:3261" placeholder="select last_..." />
-            <marker date="1448216644000" expanded="true" signature="3521:3606" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="3724:3875" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4014:4271" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4056:4271" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="4449:4569" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4688:4812" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4936:5026" placeholder="UPDATE names..." />
-            <marker date="1448216644000" expanded="true" signature="5144:5286" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5514" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5650" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5827:5911" placeholder="UPDATE phone..." />
-            <marker date="1448216644000" expanded="true" signature="6030:6117" placeholder="UPDATE email..." />
-            <marker date="1448216644000" expanded="true" signature="6360:6396" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6516:6556" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6682:6725" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6854:6899" placeholder="DELETE FROM ..." />
+            <element signature="e#9895#9913#0" expanded="true" />
+            <element signature="e#23367#23368#0" expanded="true" />
+            <element signature="e#23387#23388#0" expanded="true" />
+            <marker date="1448373420000" expanded="true" signature="1928:2475" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="2545:3197" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="3387:3723" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="4056:4079" placeholder="select last_..." />
+            <marker date="1448373420000" expanded="true" signature="4339:4424" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4542:4693" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4832:5089" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4874:5089" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="5267:5406" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5525:5668" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5792:5882" placeholder="UPDATE names..." />
+            <marker date="1448373420000" expanded="true" signature="6000:6142" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6370" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6507" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6684:6813" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:6990" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7036" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7081" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="7200:7333" placeholder="UPDATE email..." />
+            <marker date="1448373420000" expanded="true" signature="7576:7612" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7732:7772" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7898:7941" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="8070:8115" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1022,12 +1014,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15890#0" expanded="true" />
+            <element signature="e#0#16002#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3171#3317#0" expanded="true" />
-            <element signature="e#3316#3317#0" expanded="true" />
-            <element signature="e#5085#5086#0" expanded="true" />
-            <element signature="e#5115#5116#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1038,27 +1026,32 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#21368#21369#0" expanded="true" />
-            <element signature="e#21388#21389#0" expanded="true" />
-            <marker date="1448216644000" expanded="true" signature="1832:2379" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="2569:2905" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="3238:3261" placeholder="select last_..." />
-            <marker date="1448216644000" expanded="true" signature="3521:3606" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="3724:3875" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4014:4271" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4056:4271" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="4449:4569" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4688:4812" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4936:5026" placeholder="UPDATE names..." />
-            <marker date="1448216644000" expanded="true" signature="5144:5286" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5514" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5650" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5827:5911" placeholder="UPDATE phone..." />
-            <marker date="1448216644000" expanded="true" signature="6030:6117" placeholder="UPDATE email..." />
-            <marker date="1448216644000" expanded="true" signature="6360:6396" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6516:6556" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6682:6725" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6854:6899" placeholder="DELETE FROM ..." />
+            <element signature="e#9895#9913#0" expanded="true" />
+            <element signature="e#23367#23368#0" expanded="true" />
+            <element signature="e#23387#23388#0" expanded="true" />
+            <marker date="1448373420000" expanded="true" signature="1928:2475" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="2545:3197" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="3387:3723" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="4056:4079" placeholder="select last_..." />
+            <marker date="1448373420000" expanded="true" signature="4339:4424" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4542:4693" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4832:5089" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4874:5089" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="5267:5406" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5525:5668" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5792:5882" placeholder="UPDATE names..." />
+            <marker date="1448373420000" expanded="true" signature="6000:6142" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6370" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6507" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6684:6813" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:6990" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7036" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7081" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="7200:7333" placeholder="UPDATE email..." />
+            <marker date="1448373420000" expanded="true" signature="7576:7612" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7732:7772" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7898:7941" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="8070:8115" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1140,18 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/41340e67/cc4f1cf6-72b8-4a97-adbf-65c23ee3dd62/addressbook..phonenumbers">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Archive/driver/mysql-connector-java-3.0.10-stable/com/mysql/jdbc/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2122016">
@@ -1206,140 +1187,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/41340e67/cc4f1cf6-72b8-4a97-adbf-65c23ee3dd62/addressbook..names">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/41340e67/cc4f1cf6-72b8-4a97-adbf-65c23ee3dd62/addressbook..addresses">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddressBookDataAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7083333">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddressBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="241" column="24" selection-start-line="241" selection-start-column="24" selection-end-line="241" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#15890#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#3171#3317#0" expanded="true" />
-            <element signature="e#3316#3317#0" expanded="true" />
-            <element signature="e#5085#5086#0" expanded="true" />
-            <element signature="e#5115#5116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1f8f0b62-8f50-4ef6-af96-769b6978353e/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddressBookEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-57.925926">
-          <caret line="92" column="15" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
-          <folding>
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1661#1662#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#2005#2006#0" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#2114#2115#0" expanded="true" />
-            <element signature="e#2142#2143#0" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2239#2240#0" expanded="true" />
-            <element signature="e#2336#2337#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
-            <element signature="e#2450#2451#0" expanded="true" />
-            <element signature="e#2478#2479#0" expanded="true" />
-            <element signature="e#2577#2578#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
-            <element signature="e#2693#2694#0" expanded="true" />
-            <element signature="e#2721#2722#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
-            <element signature="e#2841#2842#0" expanded="true" />
-            <element signature="e#2914#2915#0" expanded="true" />
-            <element signature="e#2938#2939#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#3063#3064#0" expanded="true" />
-            <element signature="e#3135#3136#0" expanded="true" />
-            <element signature="e#3160#3161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddressBookEntryFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9464285">
-          <caret line="112" column="53" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/41340e67/1f8f0b62-8f50-4ef6-af96-769b6978353e/addressbook..phonenumbers">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1356,34 +1207,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CloudscapeDataAccess.java">
+    <entry file="file://$PROJECT_DIR$/src/AddressBookDataAccess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.25">
-          <caret line="293" column="0" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.31264368">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddressBookEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#21368#21369#0" expanded="true" />
-            <element signature="e#21388#21389#0" expanded="true" />
-            <marker date="1448216644000" expanded="true" signature="1832:2379" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="2569:2905" placeholder="SELECT names..names..." />
-            <marker date="1448216644000" expanded="true" signature="3238:3261" placeholder="select last_..." />
-            <marker date="1448216644000" expanded="true" signature="3521:3606" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="3724:3875" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4014:4271" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4056:4271" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="4449:4569" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4688:4812" placeholder="INSERT INTO ..." />
-            <marker date="1448216644000" expanded="true" signature="4936:5026" placeholder="UPDATE names..." />
-            <marker date="1448216644000" expanded="true" signature="5144:5286" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5514" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5418:5650" placeholder="UPDATE addre..." />
-            <marker date="1448216644000" expanded="true" signature="5827:5911" placeholder="UPDATE phone..." />
-            <marker date="1448216644000" expanded="true" signature="6030:6117" placeholder="UPDATE email..." />
-            <marker date="1448216644000" expanded="true" signature="6360:6396" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6516:6556" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6682:6725" placeholder="DELETE FROM ..." />
-            <marker date="1448216644000" expanded="true" signature="6854:6899" placeholder="DELETE FROM ..." />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/41340e67/1f8f0b62-8f50-4ef6-af96-769b6978353e/addressbook..phonenumbers">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/41340e67/1f8f0b62-8f50-4ef6-af96-769b6978353e/addressbook..emailaddresses">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1397,6 +1262,61 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CloudscapeDataAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5172415">
+          <caret line="268" column="15" selection-start-line="268" selection-start-column="15" selection-end-line="268" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9895#9913#0" expanded="true" />
+            <element signature="e#23367#23368#0" expanded="true" />
+            <element signature="e#23387#23388#0" expanded="true" />
+            <marker date="1448373420000" expanded="true" signature="1928:2475" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="2545:3197" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="3387:3723" placeholder="SELECT names..names..." />
+            <marker date="1448373420000" expanded="true" signature="4056:4079" placeholder="select last_..." />
+            <marker date="1448373420000" expanded="true" signature="4339:4424" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4542:4693" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4832:5089" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="4874:5089" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="5267:5406" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5525:5668" placeholder="INSERT INTO ..." />
+            <marker date="1448373420000" expanded="true" signature="5792:5882" placeholder="UPDATE names..." />
+            <marker date="1448373420000" expanded="true" signature="6000:6142" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6370" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6274:6507" placeholder="UPDATE addre..." />
+            <marker date="1448373420000" expanded="true" signature="6684:6813" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:6990" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7036" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="6949:7081" placeholder="UPDATE phone..." />
+            <marker date="1448373420000" expanded="true" signature="7200:7333" placeholder="UPDATE email..." />
+            <marker date="1448373420000" expanded="true" signature="7576:7612" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7732:7772" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="7898:7941" placeholder="DELETE FROM ..." />
+            <marker date="1448373420000" expanded="true" signature="8070:8115" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4827586">
+          <caret line="385" column="29" selection-start-line="385" selection-start-column="29" selection-end-line="385" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#16002#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddressBookEntryFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46896553">
+          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

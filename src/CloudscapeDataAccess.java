@@ -10,7 +10,9 @@ public class CloudscapeDataAccess
 
    // reference to prepared statement for locating entry
    private PreparedStatement sqlFind;
-
+   /******************************************/
+   private PreparedStatement testsqlFind;
+   /*******************************************/
    // reference to prepared statement for determining personID
    private PreparedStatement sqlPersonID;
 
@@ -39,7 +41,6 @@ public class CloudscapeDataAccess
    private PreparedStatement sqlDeleteAddress;
    private PreparedStatement sqlDeletePhone;
    private PreparedStatement sqlDeleteEmail;
-   private PreparedStatement sqltestFind;
 
    // set up PreparedStatements to access database
    public CloudscapeDataAccess() throws Exception
@@ -53,6 +54,18 @@ public class CloudscapeDataAccess
                       "addressID, address1, address2, city, county, " +
                       "phoneID, phoneNumber, emailID, " +
                       "emailAddress " +
+                      "FROM names, addresses, phoneNumbers, emailAddresses " +
+                      "WHERE lastName = ? AND " +
+                      "names.personID = addresses.personID AND " +
+                      "names.personID = phoneNumbers.personID AND " +
+                      "names.personID = emailAddresses.personID" );
+
+      testsqlFind = connection.prepareStatement(
+              "SELECT names.personID, firstName, lastName, " +
+                      "addressID, address1, address2, city, county, " +
+                      "altaddress1, altaddress2, altcity, altcounty, " +
+                      "phoneID, phoneNumber, altphoneNumber emailID, " +
+                      "emailAddress, altemailAddress " +
                       "FROM names, addresses, phoneNumbers, emailAddresses " +
                       "WHERE lastName = ? AND " +
                       "names.personID = addresses.personID AND " +
@@ -103,14 +116,14 @@ public class CloudscapeDataAccess
       // insert phone number in table phoneNumbers
       sqlInsertPhone = connection.prepareStatement(
               "INSERT INTO phoneNumbers " +
-                      "( personID, phoneNumber) " +
-                      "VALUES ( ? , ? )" );
+                      "( personID, phoneNumber, altphoneNumber) " +
+                      "VALUES ( ? , ? , ?)" );
 
       // insert email in table emailAddresses
       sqlInsertEmail = connection.prepareStatement(
               "INSERT INTO emailAddresses " +
-                      "( personID, emailAddress ) " +
-                      "VALUES ( ? , ? )" );
+                      "( personID, emailAddress, altemailAddress) " +
+                      "VALUES ( ? , ? , ?)" );
 
       // update first and last names in table names
       sqlUpdateName = connection.prepareStatement(
@@ -125,7 +138,7 @@ public class CloudscapeDataAccess
 /***************************************************/
       testsqlUpdateAddress = connection.prepareStatement(
               "UPDATE addresses SET address1 = ?, address2 = ?, " +
-                      "city = ?, county = ?" +
+                      "city = ?, county = ?," +
                       "altaddress1 = ?, altaddress2 = ?, " +
       "altcity = ?, altcounty = ?" +
               "WHERE addressID = ?" );
@@ -133,11 +146,18 @@ public class CloudscapeDataAccess
       // update phone number in table phoneNumbers
       sqlUpdatePhone = connection.prepareStatement(
               "UPDATE phoneNumbers SET phoneNumber = ? " +
+                      "altphoneNumber = ?" +
                       "WHERE phoneID = ?" );
+       /************************************************/
+       testsqlUpdatePhone = connection.prepareStatement(
+               "UPDATE phoneNumbers SET phoneNumber = ?, " +
+                       "altphoneNumber = ?" +
+                       "WHERE phoneID = ?" );
 
       // update email in table emailAddresses
       sqlUpdateEmail = connection.prepareStatement(
               "UPDATE emailAddresses SET emailAddress = ? " +
+                      "altemailAddress = ?" +
                       "WHERE emailID = ?" );
 
       // Delete row from table names. This must be executed
@@ -210,8 +230,8 @@ public class CloudscapeDataAccess
      // List<Person> = new Person
       try {
          // set query parameter and execute query
-         sqlFind.setString( 1, lastName );
-         ResultSet resultSet = sqlFind.executeQuery();
+         testsqlFind.setString( 1, lastName );
+         ResultSet resultSet = testsqlFind.executeQuery();
         // sqltestFind.setString( 1, lastName );
        // ResultSet resultSet = sqltestFind.executeQuery();
 
@@ -234,15 +254,19 @@ public class CloudscapeDataAccess
             person.setCity(resultSet.getString(7));
             person.setState(resultSet.getString(8));
             /***************************/
-            //person.setCounty( resultSet.getString( 8 ) );
+            person.setAddress12(resultSet.getString(9));
+            person.setAddress22(resultSet.getString(10));
+            person.setCity2(resultSet.getString(11));
+            person.setState2(resultSet.getString(12));
             /***************************/
-            // person.setZipcode( resultSet.getString( 9 ) );
+            person.setPhoneID(resultSet.getInt(13));
+            person.setPhoneNumber(resultSet.getString(14));
+             person.setPhoneNumber2(resultSet.getString(15));
 
-            person.setPhoneID(resultSet.getInt(9));
-            person.setPhoneNumber(resultSet.getString(10));
 
-            person.setEmailID(resultSet.getInt(11));
-            person.setEmailAddress(resultSet.getString(12));
+            person.setEmailAddress(resultSet.getString(16));
+             person.setEmailAddress2(resultSet.getString(17));
+             //person.setEmailID(resultSet.getInt(18));
             arrayList.add(person);
             // return AddressBookEntry
          }
@@ -290,7 +314,11 @@ public class CloudscapeDataAccess
          testsqlUpdateAddress.setString( 8, person.getState2() );
           /***************************************************/
          testsqlUpdateAddress.setInt( 9, person.getAddressID() );
+          /**************************************************/
+          //testsqlUpdateAddress.setString( 8, person.getState2() );
          result = testsqlUpdateAddress.executeUpdate();
+          /**************************************************/
+
 
          // if update fails, rollback and discontinue
          if ( result == 0 ) {
@@ -299,9 +327,10 @@ public class CloudscapeDataAccess
          }
 
          // update phoneNumbers table
-         sqlUpdatePhone.setString( 1, person.getPhoneNumber() );
-         sqlUpdatePhone.setInt( 2, person.getPhoneID() );
-         result = sqlUpdatePhone.executeUpdate();
+         testsqlUpdatePhone.setString( 1, person.getPhoneNumber() );
+          testsqlUpdatePhone.setString(2, person.getPhoneNumber2());
+          testsqlUpdatePhone.setInt( 3, person.getPhoneID() );
+         result = testsqlUpdatePhone.executeUpdate();
 
          // if update fails, rollback and discontinue
          if ( result == 0 ) {
@@ -310,9 +339,10 @@ public class CloudscapeDataAccess
          }
 
          // update emailAddresses table
-         sqlUpdateEmail.setString( 1, person.getEmailAddress() );
-         sqlUpdateEmail.setInt( 2, person.getEmailID() );
-         result = sqlUpdateEmail.executeUpdate();
+         testsqlUpdateEmail.setString( 1, person.getEmailAddress());
+          testsqlUpdateEmail.setString( 2, person.getEmailAddress2());
+         testsqlUpdateEmail.setInt( 3, person.getEmailID() );
+         result = testsqlUpdateEmail.executeUpdate();
 
          // if update fails, rollback and discontinue
          if ( result == 0 ) {
@@ -411,6 +441,8 @@ public class CloudscapeDataAccess
             sqlInsertPhone.setInt( 1, personID );
             sqlInsertPhone.setString( 2,
                     person.getPhoneNumber() );
+             sqlInsertPhone.setString( 3,
+                     person.getPhoneNumber2() );
             result = sqlInsertPhone.executeUpdate();
 
             // if insert fails, rollback and discontinue
@@ -422,7 +454,9 @@ public class CloudscapeDataAccess
             // insert email address in emailAddresses table
             sqlInsertEmail.setInt( 1, personID );
             sqlInsertEmail.setString( 2,
-                    person.getEmailAddress() );
+                     person.getEmailAddress() );
+             sqlInsertEmail.setString( 3,
+                     person.getEmailAddress2() );
             result = sqlInsertEmail.executeUpdate();
 
             // if insert fails, rollback and discontinue

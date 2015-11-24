@@ -94,9 +94,9 @@ public class AddressBookEntryFrame extends JInternalFrame {
       setField( ALTSTATE, person.getState2() );
       /********************************/
       setField( PHONE, person.getPhoneNumber() );
-      setField( PHONE, person.getPhoneNumber2() );
+      setField( ALTPHONE, person.getPhoneNumber2() );
       setField( EMAIL, person.getEmailAddress() );
-      setField( EMAIL, person.getEmailAddress2() );
+      setField( ALTEMAIL, person.getEmailAddress2() );
    }
    
    // store AddressBookEntry data from GUI and return

@@ -379,7 +379,12 @@ public class AddressBook extends JFrame {
             entryList = database.findPerson(
                     lastName);
 
-            int listCount = entryList.size();
+            int listCount;
+            if (entryList.size() > 0)
+               listCount = entryList.size();
+            else
+               listCount = 0;
+
             AddressBookEntryFrame [] frameArray = new AddressBookEntryFrame[listCount];
             /******************************************/
          int i = 0;
